@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    gap: 1.5rem;
+}
+
+.container{
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+    
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c5c6c5;
+}
+
+.addBtn{
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #0af63d;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+
+.delete{
+    background-color: #f60a0a;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    padding: 8px 10px;
+    background-color: #ddd;
+    border: none;
+    width: 50%;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: 1px solid #898989ef;
+}
+
+
+input .inputField{
+    padding: 4px 7px;
+    background-color: #ddd;
+    border: none;
+    width: 20%;
+    border-radius: 5px;
+}
